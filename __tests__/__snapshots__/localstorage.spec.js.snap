@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`posts messages to subscribers 1`] = `
+Array [
+  Array [
+    "A msg from localstorage",
+  ],
+  Array [
+    "Another one",
+  ],
+  Array [
+    "And a third one",
+  ],
+]
+`;
+
+exports[`posts messages with different types 1`] = `
+Array [
+  Array [
+    "A msg",
+  ],
+  Array [
+    Object {
+      "foo": "bar",
+    },
+  ],
+  Array [
+    Object {
+      "baz": 1,
+    },
+  ],
+  Array [
+    1,
+  ],
+  Array [
+    Object {},
+  ],
+  Array [
+    Array [
+      "lovely",
+      "quz",
+      1,
+      0.4,
+    ],
+  ],
+]
+`;
+
+exports[`shows a warning if localstorage is not supported 1`] = `
+Object {
+  "close": [Function],
+  "name": "oops",
+  "on": [Function],
+  "post": [Function],
+  "start": [Function],
+  "stop": [Function],
+}
+`;
+
+exports[`stops and starts the messages on demand 1`] = `
+Array [
+  Array [
+    "A msg",
+  ],
+  Array [
+    "Keep them coming",
+  ],
+]
+`;
+
+exports[`used as fallback strategy 1`] = `
+Object {
+  "close": [Function],
+  "name": "channel",
+  "on": [Function],
+  "post": [Function],
+  "start": [Function],
+  "stop": [Function],
+}
+`;

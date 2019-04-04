@@ -1,0 +1,116 @@
+<html>
+
+<head>
+  <title>Simple tabsub example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, segoe ui, roboto, oxygen, ubuntu, cantarell, fira sans, droid sans, helvetica neue, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      flex-direction: column;
+      cursor: default;
+    }
+
+    pre {
+      font-family: Menlo, Monaco, "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace, serif;
+      font-size: 13px;
+      line-height: 20px;
+      white-space: pre;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(234, 234, 234);
+      border-image: initial;
+      margin: 40px 0px;
+      overflow: auto;
+      padding: 20px;
+    }
+
+    input {
+      box-shadow: none;
+      display: block;
+      font-size: 14px;
+      line-height: 27px;
+      padding: 10px;
+      color: inherit;
+      background-color: transparent;
+      caret-color: rgb(0, 0, 0);
+      border-radius: 5px;
+      border-width: 1px;
+      border-style: solid;
+      border-image: initial;
+      outline: 0px;
+      margin-bottom: 10px;
+      display: inline-block;
+      border-color: rgb(225, 225, 225);
+    }
+
+    button {
+      -webkit-appearance: none;
+      position: relative;
+      display: inline-block;
+      vertical-align: middle;
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 0;
+      white-space: nowrap;
+      width: 200px;
+      height: 40px;
+      font-weight: 500;
+      font-size: 12px;
+      color: rgb(255, 255, 255);
+      background-color: rgb(0, 0, 0);
+      user-select: none;
+      cursor: pointer;
+      text-decoration: none;
+      padding: 0px 25px;
+      border-radius: 5px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(0, 0, 0);
+      border-image: initial;
+      transition: all 0.2s ease 0s;
+      overflow: hidden;
+      outline: none;
+    }
+
+    button:hover {
+      color: rgb(0, 0, 0);
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(0, 0, 0);
+      border-image: initial;
+      background: rgb(255, 255, 255);
+    }
+
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      height: 100%;
+      padding: 0 20px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <main>
+    <input type="text" id="msg" placeholder="Post a message">
+    <button id="send">Post</button>
+    <pre id="msgs">No messages found yet.</pre>
+  </main>
+  <script src="src/index.js"></script>
+</body>
+
+</html>

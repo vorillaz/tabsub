@@ -1,0 +1,14 @@
+{
+  "name": "basic-tabsub-example",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0"
+  }
+}

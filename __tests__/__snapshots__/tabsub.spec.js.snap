@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`returns the proper API 1`] = `
+Object {
+  "close": [Function],
+  "name": "new-channel",
+  "on": [Function],
+  "post": [Function],
+  "start": [Function],
+  "stop": [Function],
+}
+`;
+
+exports[`works with smart defaults 1`] = `
+Object {
+  "close": [Function],
+  "name": "__DEFAULT_CHANNEL_",
+  "on": [Function],
+  "post": [Function],
+  "start": [Function],
+  "stop": [Function],
+}
+`;

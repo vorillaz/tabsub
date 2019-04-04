@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`is used as default strategy 1`] = `
+Object {
+  "close": [Function],
+  "name": "channel",
+  "on": [Function],
+  "post": [Function],
+  "start": [Function],
+  "stop": [Function],
+}
+`;
+
+exports[`posts messages to subscribers 1`] = `
+Array [
+  Array [
+    "A msg",
+  ],
+  Array [
+    "Another one",
+  ],
+  Array [
+    "A third one",
+  ],
+]
+`;
+
+exports[`posts messages with different types 1`] = `
+Array [
+  Array [
+    "A msg",
+  ],
+  Array [
+    Object {
+      "foo": "bar",
+    },
+  ],
+  Array [
+    Object {
+      "baz": 1,
+    },
+  ],
+  Array [
+    1,
+  ],
+  Array [
+    null,
+  ],
+  Array [
+    Array [
+      "lovely",
+      "quz",
+      1,
+      0.4,
+    ],
+  ],
+]
+`;
+
+exports[`stops and starts the messages on demand 1`] = `
+Array [
+  Array [
+    "A msg",
+  ],
+  Array [
+    "Keep them coming",
+  ],
+]
+`;

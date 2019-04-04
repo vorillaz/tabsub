@@ -1,0 +1,17 @@
+node_modules
+dist
+lib
+es
+coverage
+build
+.cache
+*-lock.json
+*.lock
+*.log
+.DS_Store
+.prettierrc.js
+.vscode
+.nyc_coverage
+.nyc_output
+.editorconfig
+.vscode
