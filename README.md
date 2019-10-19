@@ -13,7 +13,7 @@ Tabsub is a tiny library with minimal API that allows simple communication betwe
 Install Tabsub from the NPM registry as:
 
 ```
-npm install --save broadcast-channel
+npm install --save tabsub
 ```
 
 ## Usage
