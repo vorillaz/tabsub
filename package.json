@@ -1,6 +1,6 @@
 {
   "name": "tabsub",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple cross tab / window publish–subscribe mechanism.",
   "main": "lib/redux.js",
   "unpkg": "dist/redux.js",
